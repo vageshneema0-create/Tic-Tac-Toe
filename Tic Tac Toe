@@ -1,0 +1,247 @@
+a1=a2=a3=b1=b2=b3=c1=c2=c3="•"
+print(a1,"|",a2,"|",a3)
+print("---------")
+print(b1,"|",b2,"|",b3)
+print("---------")
+print(c1,"|",c2,"|",c3)
+#player 1 is X
+#player 2 is O
+game=False
+p1=input("player 1 enter your position: ")
+if(p1=="a1"):
+    a1="X"
+elif(p1=="a2"):
+    a2="X"
+elif(p1=="a3"):
+    a3="X"
+elif(p1=="b1"):
+    b1="X"
+elif(p1=="b2"):
+    b2="X"
+elif(p1=="b3"):
+    b3="X"
+elif(p1=="c1"):
+    c1="X"
+elif(p1=="c2"):
+    c2="X"
+else:
+    c3="X"
+print(a1,"|",a2,"|",a3)
+print("---------")
+print(b1,"|",b2,"|",b3)
+print("---------")
+print(c1,"|",c2,"|",c3)
+p2=input("player 2 enter your position: ")
+if(p2=="a1"):
+    a1="O"
+elif(p2=="a2"):
+    a2="O"
+elif(p2=="a3"):
+    a3="O"
+elif(p2=="b1"):
+    b1="O"
+elif(p2=="b2"):
+    b2="O"
+elif(p2=="b3"):
+    b3="O"
+elif(p2=="c1"):
+    c1="O"
+elif(p2=="c2"): 
+    c2="O"
+else:
+    c3="O"
+print(a1,"|",a2,"|",a3)
+print("---------")
+print(b1,"|",b2,"|",b3)
+print("---------")
+print(c1,"|",c2,"|",c3)
+p3=input("player 1 enter your position: ")
+if(p3=="a1"):
+    a1="X"
+elif(p3=="a2"):
+    a2="X"
+elif(p3=="a3"):
+    a3="X"
+elif(p3=="b1"):
+    b1="X"
+elif(p3=="b2"):
+    b2="X"
+elif(p3=="b3"):
+    b3="X"
+elif(p3=="c1"):
+    c1="X"
+elif(p3=="c2"):
+    c2="X"
+else:
+    c3="X"
+print(a1,"|",a2,"|",a3)
+print("---------")
+print(b1,"|",b2,"|",b3)
+print("---------")
+print(c1,"|",c2,"|",c3)
+p4=input("player 2 enter your position: ")
+if(p4=="a1"):
+    a1="O"
+elif(p4=="a2"):
+    a2="O"
+elif(p4=="a3"):
+    a3="O"
+elif(p4=="b1"):
+    b1="O"
+elif(p4=="b2"):
+    b2="O"
+elif(p4=="b3"):
+    b3="O"
+elif(p4=="c1"):
+    c1="O"
+elif(p4=="c2"): 
+    c2="O"
+else:
+    c3="O"
+print(a1,"|",a2,"|",a3)
+print("---------")
+print(b1,"|",b2,"|",b3)
+print("---------")
+print(c1,"|",c2,"|",c3)
+p5=input("player 1 enter your position: ")
+if(p5=="a1"):
+    a1="X"
+elif(p5=="a2"):
+    a2="X"
+elif(p5=="a3"):
+    a3="X"
+elif(p5=="b1"):
+    b1="X"
+elif(p5=="b2"): 
+    b2="X"
+elif(p5=="b3"):
+    b3="X"
+elif(p5=="c1"):
+    c1="X"
+elif(p5=="c2"):
+    c2="X"
+else:
+    c3="X"
+print(a1,"|",a2,"|",a3)
+print("---------")
+print(b1,"|",b2,"|",b3)
+print("---------")
+print(c1,"|",c2,"|",c3)
+if(a1==a2==a3=="X" or b1==b2==b3=="X" or c1==c2==c3=="X" or a1==b1==c1=="X" or a2==b2==c2=="X" or a3==b3==c3=="X" or a1==b2==c3=="X" or a3==b2==c1=="X"):
+    print("player 1 wins, game over")
+    game=True
+    exit()
+p6=input("player 2 enter your position: ")
+if(p6=="a1"):
+    a1="O"
+elif(p6=="a2"):
+    a2="O"
+elif(p6=="a3"):
+    a3="O"
+elif(p6=="b1"):
+    b1="O"
+elif(p6=="b2"): 
+    b2="O"
+elif(p6=="b3"):
+    b3="O"
+elif(p6=="c1"):
+    c1="O"
+elif(p6=="c2"):
+    c2="O"
+else:
+    c3="O"
+print(a1,"|",a2,"|",a3)
+print("---------")
+print(b1,"|",b2,"|",b3)
+print("---------")
+print(c1,"|",c2,"|",c3)
+if(a1==a2==a3=="O" or b1==b2==b3=="O" or c1==c2==c3=="O" or a1==b1==c1=="O" or a2==b2==c2=="O" or a3==b3==c3=="O" or a1==b2==c3=="O" or a3==b2==c1=="O"):
+    print("player 2 wins, game over")
+    game=True
+    exit()
+p7=input("player 1 enter your position: ")
+if(p7=="a1"):
+    a1="X"
+elif(p7=="a2"):
+    a2="X"
+elif(p7=="a3"):
+    a3="X"
+elif(p7=="b1"):
+    b1="X"
+elif(p7=="b2"): 
+    b2="X"
+elif(p7=="b3"):
+    b3="X"
+elif(p7=="c1"):
+    c1="X"
+elif(p7=="c2"):
+    c2="X"
+else:
+    c3="X"
+print(a1,"|",a2,"|",a3)
+print("---------")
+print(b1,"|",b2,"|",b3)
+print("---------")
+print(c1,"|",c2,"|",c3)
+if(a1==a2==a3=="X" or b1==b2==b3=="X" or c1==c2==c3=="X" or a1==b1==c1=="X" or a2==b2==c2=="X" or a3==b3==c3=="X" or a1==b2==c3=="X" or a3==b2==c1=="X"):
+    print("player 1 wins, game over")
+    game=True
+    exit()
+p8=input("player 2 enter your position: ")
+if(p8=="a1"):
+    a1="O"
+elif(p8=="a2"):
+    a2="O"
+elif(p8=="a3"):
+    a3="O"
+elif(p8=="b1"):
+    b1="O"
+elif(p8=="b2"): 
+    b2="O"
+elif(p8=="b3"):
+    b3="O"
+elif(p8=="c1"):
+    c1="O"
+elif(p8=="c2"):
+    c2="O"
+else:
+    c3="O"
+print(a1,"|",a2,"|",a3)
+print("---------")
+print(b1,"|",b2,"|",b3)
+print("---------")
+print(c1,"|",c2,"|",c3)
+if(a1==a2==a3=="O" or b1==b2==b3=="O" or c1==c2==c3=="O" or a1==b1==c1=="O" or a2==b2==c2=="O" or a3==b3==c3=="O" or a1==b2==c3=="O" or a3==b2==c1=="O"):
+    print("player 2 wins, game over")
+    game=True
+    exit()
+p9=input("player 1 enter your position: ")
+if(p9=="a1"):
+    a1="X"
+elif(p9=="a2"):
+    a2="X"
+elif(p9=="a3"):
+    a3="X"
+elif(p9=="b1"):
+    b1="X"
+elif(p9=="b2"): 
+    b2="X"
+elif(p9=="b3"):
+    b3="X"
+elif(p9=="c1"):
+    c1="X"
+elif(p9=="c2"):
+    c2="X"
+else:
+    c3="X"
+print(a1,"|",a2,"|",a3)
+print("---------")
+print(b1,"|",b2,"|",b3)
+print("---------")
+print(c1,"|",c2,"|",c3)
+if(a1==a2==a3=="X" or b1==b2==b3=="X" or c1==c2==c3=="X" or a1==b1==c1=="X" or a2==b2==c2=="X" or a3==b3==c3=="X" or a1==b2==c3=="X" or a3==b2==c1=="X"):
+    print("player 1 wins, game over")
+else:
+    print(" it's a draw, game over")
+    exit()
+    
